@@ -1,5 +1,5 @@
 /// @description De/select button
-if ((position_meeting(mouse_x, mouse_y, self)) && mouse_check_button(mb_left))
+if ((position_meeting(mouse_x, mouse_y, self)) && mouse_check_button_released(mb_left))
 {
 	selected = true;
 	obj_variable_holder.selectedBrush = identifier;
