@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_drawing_brush","path":"objects/obj_drawing_brush/obj_drawing_brush.yy",},"order":1,},
     {"id":{"name":"spr_brush9","path":"sprites/spr_brush9/spr_brush9.yy",},"order":8,},
     {"id":{"name":"obj_brush_parent","path":"objects/obj_brush_parent/obj_brush_parent.yy",},"order":1,},
     {"id":{"name":"spr_selectable_button","path":"sprites/spr_selectable_button/spr_selectable_button.yy",},"order":0,},
@@ -9,6 +10,7 @@
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},"order":3,},
     {"id":{"name":"obj_brush_4","path":"objects/obj_brush_4/obj_brush_4.yy",},"order":2,},
     {"id":{"name":"obj_sound_button","path":"objects/obj_sound_button/obj_sound_button.yy",},"order":2,},
+    {"id":{"name":"scr_get_proper_color","path":"scripts/scr_get_proper_color/scr_get_proper_color.yy",},"order":1,},
     {"id":{"name":"spr_brush_usable10","path":"sprites/spr_brush_usable10/spr_brush_usable10.yy",},"order":1,},
     {"id":{"name":"obj_color_8","path":"objects/obj_color_8/obj_color_8.yy",},"order":7,},
     {"id":{"name":"obj_game_starter","path":"objects/obj_game_starter/obj_game_starter.yy",},"order":0,},
@@ -21,6 +23,7 @@
     {"id":{"name":"obj_brush_3","path":"objects/obj_brush_3/obj_brush_3.yy",},"order":1,},
     {"id":{"name":"obj_color_13","path":"objects/obj_color_13/obj_color_13.yy",},"order":12,},
     {"id":{"name":"obj_main_menu_controller","path":"objects/obj_main_menu_controller/obj_main_menu_controller.yy",},"order":4,},
+    {"id":{"name":"scr_get_proper_brush","path":"scripts/scr_get_proper_brush/scr_get_proper_brush.yy",},"order":2,},
     {"id":{"name":"font_kenney_future_twenty_four","path":"fonts/font_kenney_future_twenty_four/font_kenney_future_twenty_four.yy",},"order":1,},
     {"id":{"name":"obj_color_14","path":"objects/obj_color_14/obj_color_14.yy",},"order":13,},
     {"id":{"name":"spr_brush5","path":"sprites/spr_brush5/spr_brush5.yy",},"order":4,},
@@ -28,6 +31,7 @@
     {"id":{"name":"obj_brush_6","path":"objects/obj_brush_6/obj_brush_6.yy",},"order":4,},
     {"id":{"name":"obj_new_game_button","path":"objects/obj_new_game_button/obj_new_game_button.yy",},"order":1,},
     {"id":{"name":"obj_color_parent","path":"objects/obj_color_parent/obj_color_parent.yy",},"order":2,},
+    {"id":{"name":"spr_brush_handle","path":"sprites/spr_brush_handle/spr_brush_handle.yy",},"order":10,},
     {"id":{"name":"spr_brush_usable3","path":"sprites/spr_brush_usable3/spr_brush_usable3.yy",},"order":3,},
     {"id":{"name":"room_main_game","path":"rooms/room_main_game/room_main_game.yy",},"order":2,},
     {"id":{"name":"obj_splash_handler","path":"objects/obj_splash_handler/obj_splash_handler.yy",},"order":4,},
@@ -43,6 +47,7 @@
     {"id":{"name":"spr_background_forest","path":"sprites/spr_background_forest/spr_background_forest.yy",},"order":0,},
     {"id":{"name":"obj_color_12","path":"objects/obj_color_12/obj_color_12.yy",},"order":11,},
     {"id":{"name":"obj_color_2","path":"objects/obj_color_2/obj_color_2.yy",},"order":1,},
+    {"id":{"name":"obj_drawing_board","path":"objects/obj_drawing_board/obj_drawing_board.yy",},"order":0,},
     {"id":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},"order":1,},
     {"id":{"name":"spr_brush_usable2","path":"sprites/spr_brush_usable2/spr_brush_usable2.yy",},"order":2,},
     {"id":{"name":"spr_brush_usable9","path":"sprites/spr_brush_usable9/spr_brush_usable9.yy",},"order":9,},
@@ -116,6 +121,7 @@
     {"folderPath":"folders/Sprites/Backgrounds.yy","order":4,"resourceVersion":"1.0","name":"Backgrounds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Brushes.yy","order":5,"resourceVersion":"1.0","name":"Brushes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Splash.yy","order":6,"resourceVersion":"1.0","name":"Splash","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Game Objects/Drawing Objects.yy","order":7,"resourceVersion":"1.0","name":"Drawing Objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
