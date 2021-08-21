@@ -5,7 +5,7 @@ if isPressed = true
 {
 	if !gameStarted
 	{
-		room_goto(room_main_game);
+		room_goto(room_game_monday);
 		gameStarted = true;
 	}
 }
