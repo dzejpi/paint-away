@@ -15,13 +15,13 @@ switch(current_event_number)
 
 				indentation = 84;
 
-				text[0] = "Yesterday was pretty nice!";
-				text[1] = "I spent the last few years in my room.";
-				text[2] = "Few years ago, I had everything. Still have enough to live comfortably.";
-				text[3] = "Although I was fortunate with having enough money, I spent some time";
-				text[4] = "Anyway, I want to paint. The pain away.";
-				text[5] = "Outside feels pretty nice, gotta admit. Alright, I am here.";
-				text[6] = "Let's see how it goes.";
+				text[0] = "I can't stop thinking about yesterday.";
+				text[1] = "The weather is definitely all over the place lately.";
+				text[2] = "I wanted to go for a week without pills. But better be safe. Took them here.";
+				text[3] = "But I don't need them.";
+				text[4] = "Anyway, another day, another painting.";
+				text[5] = "I really don't know what to think about these tourist parks that are so out of place.";
+				text[6] = "We are not in the desert. So what the heck?";
 
 				text_current = 0;
 				text_last = 6;
@@ -42,6 +42,44 @@ switch(current_event_number)
 		} else
 		{
 			if !(instance_exists(obj_daily_intro_handler))
+			{
+				waiting_for_finish = false;
+				current_event_number += 1;
+			}
+		}
+	break;
+	
+	case 1:
+		if !waiting_for_finish
+		{
+			waiting_for_finish = true;
+			
+			_inst = instance_create_depth(x, y, 0, obj_dialog_handler);
+			with(_inst)
+			{
+				indentation = 84;
+
+				text[0] = "I complained about colors yesterday, but this takes the cake.";
+				text[1] = "I should really get some better ones. What do you want to do with 16 colors?";
+				text[2] = "Don't feel like going anywhere though. Let's just wing it. You can do it!";
+
+				text_current = 0;
+				text_last = 2;
+				text_width = 1056 - (indentation*2);
+				text_x = x + indentation;
+				text_y = 60 + (indentation * 6);
+
+				char_current = 1;
+				char_speed = 0.25;
+
+				text[text_current] = scr_string_wrap(text[text_current], text_width);
+
+				delay = 180;
+				auto_countdown = delay;
+			}
+		} else
+		{
+			if !instance_exists(obj_dialog_handler)
 			{
 				waiting_for_finish = false;
 				current_event_number += 1;

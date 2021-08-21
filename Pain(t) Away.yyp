@@ -91,6 +91,7 @@
     {"id":{"name":"spr_brush_usable8","path":"sprites/spr_brush_usable8/spr_brush_usable8.yy",},"order":8,},
     {"id":{"name":"obj_color_11","path":"objects/obj_color_11/obj_color_11.yy",},"order":10,},
     {"id":{"name":"obj_parent_button","path":"objects/obj_parent_button/obj_parent_button.yy",},"order":0,},
+    {"id":{"name":"obj_credits_handler","path":"objects/obj_credits_handler/obj_credits_handler.yy",},"order":9,},
     {"id":{"name":"obj_brush_2","path":"objects/obj_brush_2/obj_brush_2.yy",},"order":0,},
     {"id":{"name":"spr_brush_usable4","path":"sprites/spr_brush_usable4/spr_brush_usable4.yy",},"order":4,},
     {"id":{"name":"obj_selectable_button","path":"objects/obj_selectable_button/obj_selectable_button.yy",},"order":3,},
