@@ -33,4 +33,4 @@ with(_intro_object)
 	autodisappearing = false;
 }
 
-obj_gui_controller.current_game_day = "Monday";
+obj_gui_controller.current_game_day = "Wednesday";

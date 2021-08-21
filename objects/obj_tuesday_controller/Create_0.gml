@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-var _intro_object = instance_create_depth(x, y, 0, obj_daily_intro_handler);
+var _intro_object = instance_create_depth(x, y, 0, obj_daily_intro_handler)
 with(_intro_object)
 {
 	depth = -100;
@@ -8,7 +8,7 @@ with(_intro_object)
 
 	indentation = 84;
 
-	text[0] = "I will tell you something. Press Space to continue.";
+	text[0] = "Yesterday was pretty nice!";
 	text[1] = "I spent the last few years in my room.";
 	text[2] = "Few years ago, I had everything. Still have enough to live comfortably.";
 	text[3] = "Although I was fortunate with having enough money, I spent some time";
@@ -33,4 +33,4 @@ with(_intro_object)
 	autodisappearing = false;
 }
 
-obj_gui_controller.current_game_day = "Monday";
+obj_gui_controller.current_game_day = "Tuesday";
