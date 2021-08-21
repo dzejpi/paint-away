@@ -2,9 +2,8 @@
 // You can write your code in this editor
 indentation = 84;
 
-
-text[0] = "Hello World";
-text[1] = "This is a really, really, really, long and silly string to test that the line wrapping works okay.";
+text[0] = "What a beautiful day!";
+text[1] = "Though it does not beat being on the computer all day.";
 
 text_current = 0;
 text_last = 1;
@@ -16,3 +15,6 @@ char_current = 1;
 char_speed = 0.25;
 
 text[text_current] = scr_string_wrap(text[text_current], text_width);
+
+delay = 180;
+auto_countdown = delay;
