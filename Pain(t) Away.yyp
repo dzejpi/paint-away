@@ -57,6 +57,7 @@
     {"id":{"name":"obj_drawable_canvas","path":"objects/obj_drawable_canvas/obj_drawable_canvas.yy",},"order":2,},
     {"id":{"name":"spr_brush2","path":"sprites/spr_brush2/spr_brush2.yy",},"order":1,},
     {"id":{"name":"obj_variable_holder","path":"objects/obj_variable_holder/obj_variable_holder.yy",},"order":2,},
+    {"id":{"name":"spr_board_back","path":"sprites/spr_board_back/spr_board_back.yy",},"order":2,},
     {"id":{"name":"spr_brush6","path":"sprites/spr_brush6/spr_brush6.yy",},"order":5,},
     {"id":{"name":"obj_color_16","path":"objects/obj_color_16/obj_color_16.yy",},"order":15,},
     {"id":{"name":"spr_brush_usable1","path":"sprites/spr_brush_usable1/spr_brush_usable1.yy",},"order":0,},
