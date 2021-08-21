@@ -2,6 +2,5 @@
 // You can write your code in this editor
 instance_create_depth(x, y, 0, obj_variable_holder);
 instance_create_depth(x, y, 0, obj_gui_controller);
-instance_create_depth(x, y, 0, obj_dialog_handler);
 instance_create_depth(x, y, 0, obj_drawing_brush);
 instance_create_depth(x, y, 0, obj_drawing_board);

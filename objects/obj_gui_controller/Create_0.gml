@@ -1,5 +1,14 @@
 /// @description Create GUI
+depth = -1;
+current_game_day = "Monday";
+current_objective = "Draw the sky.";
+timer = 60;
+text_indentation = 32;
+
 indentation = 84;
+
+countdown_speed = 60;
+timer_countdown = countdown_speed;
 
 // First row
 instance_create_depth(1056, 60 + (indentation * 0), 0, obj_color_1);
