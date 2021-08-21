@@ -1,7 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw the background & text
 
-draw_rectangle_color(text_x - (indentation/4), text_y - (indentation/4), 1056 - (indentation*2/2), text_y - (indentation/2) + (indentation*2), c_blue, c_blue, c_blue, c_blue, false);
+// Use nine-slice & magic numbers all over the place
+draw_sprite_stretched(spr_dialog_back, 0, text_x - (indentation/1.5) - 12, text_y - (indentation/2.25), text_width + (indentation/1) + 20, (indentation*2.25) - 8)
 
 draw_set_font(font_kenney_future_twenty_four);
 draw_set_halign(fa_left);
