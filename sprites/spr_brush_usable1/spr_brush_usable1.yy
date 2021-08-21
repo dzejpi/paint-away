@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 7,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"64027445-2e1d-4002-aef9-4cb258f30fea","path":"sprites/spr_brush1/spr_brush1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"64027445-2e1d-4002-aef9-4cb258f30fea","path":"sprites/spr_brush1/spr_brush1.yy",},"LayerId":{"name":"bbf43e96-c097-4bcb-bfe4-6cfd76c794ea","path":"sprites/spr_brush1/spr_brush1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_brush1","path":"sprites/spr_brush1/spr_brush1.yy",},"resourceVersion":"1.0","name":"64027445-2e1d-4002-aef9-4cb258f30fea","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"64027445-2e1d-4002-aef9-4cb258f30fea","path":"sprites/spr_brush_usable1/spr_brush_usable1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"64027445-2e1d-4002-aef9-4cb258f30fea","path":"sprites/spr_brush_usable1/spr_brush_usable1.yy",},"LayerId":{"name":"bbf43e96-c097-4bcb-bfe4-6cfd76c794ea","path":"sprites/spr_brush_usable1/spr_brush_usable1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_brush_usable1","path":"sprites/spr_brush_usable1/spr_brush_usable1.yy",},"resourceVersion":"1.0","name":"64027445-2e1d-4002-aef9-4cb258f30fea","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_brush1","path":"sprites/spr_brush1/spr_brush1.yy",},
+    "spriteId": {"name":"spr_brush_usable1","path":"sprites/spr_brush_usable1/spr_brush_usable1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0c22fb05-c853-415a-bf0e-d6d1c26988a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64027445-2e1d-4002-aef9-4cb258f30fea","path":"sprites/spr_brush1/spr_brush1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"25a404fc-04dc-404e-a5fa-726a2e1e9ad0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64027445-2e1d-4002-aef9-4cb258f30fea","path":"sprites/spr_brush_usable1/spr_brush_usable1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,12 +55,12 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 128,
-    "yorigin": 128,
+    "yorigin": 256,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_brush1","path":"sprites/spr_brush1/spr_brush1.yy",},
+    "parent": {"name":"spr_brush_usable1","path":"sprites/spr_brush_usable1/spr_brush_usable1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_brush1",
+    "name": "spr_brush_usable1",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -94,10 +94,10 @@
   },
   "parent": {
     "name": "Brushes",
-    "path": "folders/Sprites/Selectable Buttons/Brushes.yy",
+    "path": "folders/Sprites/Brushes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_brush1",
+  "name": "spr_brush_usable1",
   "tags": [],
   "resourceType": "GMSprite",
 }
