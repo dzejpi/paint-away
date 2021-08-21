@@ -48,4 +48,32 @@ switch(current_event_number)
 			}
 		}
 	break;
+	
+	case 1:
+		if !waiting_for_finish
+		{
+			waiting_for_finish = true;
+			
+			var _flash_object = instance_create_depth(x, y, 0, obj_text_flasher)
+			with(_flash_object)
+			{
+				text_font = font_kenney_future_fourty_eight;
+				text_displayed = "Look away.";
+				text_color = make_color_rgb(0, 0, 0);
+
+				flash_duration = 30;
+				current_flash = 0;
+				alpha = 0;
+
+				is_flashed = false;
+			}
+		} else
+		{
+			if !(instance_exists(obj_text_flasher))
+			{
+				waiting_for_finish = false;
+				current_event_number += 1;
+			}
+		}
+	break;
 }

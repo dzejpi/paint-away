@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_drawing_brush","path":"objects/obj_drawing_brush/obj_drawing_brush.yy",},"order":1,},
     {"id":{"name":"spr_brush9","path":"sprites/spr_brush9/spr_brush9.yy",},"order":8,},
+    {"id":{"name":"obj_text_flasher","path":"objects/obj_text_flasher/obj_text_flasher.yy",},"order":8,},
     {"id":{"name":"obj_brush_parent","path":"objects/obj_brush_parent/obj_brush_parent.yy",},"order":1,},
     {"id":{"name":"spr_selectable_button","path":"sprites/spr_selectable_button/spr_selectable_button.yy",},"order":0,},
     {"id":{"name":"obj_brush_5","path":"objects/obj_brush_5/obj_brush_5.yy",},"order":3,},
