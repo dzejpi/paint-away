@@ -52,6 +52,7 @@
     {"id":{"name":"spr_brush10","path":"sprites/spr_brush10/spr_brush10.yy",},"order":9,},
     {"id":{"name":"obj_wednesday_controller","path":"objects/obj_wednesday_controller/obj_wednesday_controller.yy",},"order":2,},
     {"id":{"name":"spr_menu_button","path":"sprites/spr_menu_button/spr_menu_button.yy",},"order":0,},
+    {"id":{"name":"obj_daily_intro_handler","path":"objects/obj_daily_intro_handler/obj_daily_intro_handler.yy",},"order":7,},
     {"id":{"name":"spr_brush3","path":"sprites/spr_brush3/spr_brush3.yy",},"order":2,},
     {"id":{"name":"spr_brush_usable7","path":"sprites/spr_brush_usable7/spr_brush_usable7.yy",},"order":7,},
     {"id":{"name":"spr_brush_usable6","path":"sprites/spr_brush_usable6/spr_brush_usable6.yy",},"order":6,},

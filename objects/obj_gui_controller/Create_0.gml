@@ -1,8 +1,8 @@
 /// @description Create GUI
 depth = -1;
-current_game_day = "Monday";
-current_objective = "Draw the sky.";
-timer = 60;
+current_game_day = "";
+current_objective = "";
+timer = 0;
 text_indentation = 32;
 
 indentation = 84;
