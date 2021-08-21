@@ -11,9 +11,9 @@ draw_set_font(font_kenney_future_fourty_eight);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-draw_text(room_width/2, room_height/2, "Great job!")
+draw_text(room_width/2, room_height/2, displayed_text)
 
 draw_set_font(font_kenney_future_twenty_four);
-draw_text(room_width/2, (room_height/2) + 48, "You passed another day!")
+draw_text(room_width/2, (room_height/2) + 48, secondary_text)
 
 draw_set_alpha(1);
