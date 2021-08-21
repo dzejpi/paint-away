@@ -8,4 +8,7 @@ if ((position_meeting(mouse_x, mouse_y, self)) && mouse_check_button(mb_left))
 if obj_variable_holder.selectedColor != identifier
 {
 	selected = false;
+} else
+{
+	selected = true;
 }

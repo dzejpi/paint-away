@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_selectable_button",
-    "path": "objects/obj_selectable_button/obj_selectable_button.yy",
+    "name": "obj_color_parent",
+    "path": "objects/obj_color_parent/obj_color_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,18 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI Buttons",
-    "path": "folders/Objects/Game Objects/GUI Buttons.yy",
+    "name": "Colors",
+    "path": "folders/Objects/Game Objects/GUI Buttons/Colors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_color_parent",
+  "name": "obj_color_3",
   "tags": [],
   "resourceType": "GMObject",
 }
