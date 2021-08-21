@@ -91,8 +91,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"room_splash_screen","path":"rooms/room_splash_screen/room_splash_screen.yy",},},
     {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
+    {"roomId":{"name":"room_splash_screen","path":"rooms/room_splash_screen/room_splash_screen.yy",},},
     {"roomId":{"name":"room_main_game","path":"rooms/room_main_game/room_main_game.yy",},},
   ],
   "Folders": [
