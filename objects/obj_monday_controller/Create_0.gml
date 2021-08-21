@@ -8,13 +8,13 @@ with(_intro_object)
 
 	indentation = 84;
 
-	text[0] = "I will tell you something. Just between us. You seem nice. [Press Space to continue.]";
-	text[1] = "I spent the last few years in my room.";
-	text[2] = "Few years ago, I had everything. Still have enough to live comfortably.";
-	text[3] = "Although I was fortunate with having enough money, I spent some time";
-	text[4] = "Anyway, I want to paint. The pain away.";
-	text[5] = "Outside feels pretty nice, gotta admit. Alright, I am here.";
-	text[6] = "Let's see how it goes.";
+	text[0] = "I will tell you something. Just between us. You seem nice. --[Press Space to continue]--";
+	text[1] = "I spent the last few years in my room. Not that I am some kind of nerd. I had my own reasons.";
+	text[2] = "You know, I used to have everything. Still have enough to live comfortably though. Not that I am bragging.";
+	text[3] = "I still think about them every day. Pills took them away. But I feel good after them.";
+	text[4] = "To not bore you with details - today, I decided to finally paint again after many years.";
+	text[5] = "Outside feels pretty nice, I have to admit. Fresh air feels different after so many years.";
+	text[6] = "This seems like a nice place. Let's see how it goes. I will try my new technique.";
 
 	text_current = 0;
 	text_last = 6;
@@ -27,7 +27,7 @@ with(_intro_object)
 
 	text[text_current] = scr_string_wrap(text[text_current], text_width);
 
-	delay = 180;
+	delay = 300;
 	auto_countdown = delay;
 
 	autodisappearing = false;

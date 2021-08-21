@@ -26,7 +26,7 @@ with(_intro_object)
 
 	text[text_current] = scr_string_wrap(text[text_current], text_width);
 
-	delay = 180;
+	delay = 300;
 	auto_countdown = delay;
 
 	autodisappearing = false;
