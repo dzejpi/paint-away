@@ -4,7 +4,8 @@ draw_set_alpha(alpha);
 
 draw_rectangle_color(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
 
-draw_set_alpha(1 - alpha);
+draw_set_color(c_white);
+draw_set_alpha(1);
 
 draw_set_font(font_kenney_future_fourty_eight);
 
