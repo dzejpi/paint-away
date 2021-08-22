@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+depth = 2;
 
 x_position = 528;
 y_position = 24;
