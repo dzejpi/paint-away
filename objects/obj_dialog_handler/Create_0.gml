@@ -19,4 +19,8 @@ char_speed = 0.25;
 text[text_current] = scr_string_wrap(text[text_current], text_width);
 
 delay = 180;
-auto_countdown = delay;
+
+// Disgusting fix for the quick dialogs -- just ignore delay.
+delay_overload = 300;
+
+auto_countdown = delay_overload;

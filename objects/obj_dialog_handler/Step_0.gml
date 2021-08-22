@@ -17,7 +17,7 @@ if keyboard_check_released(vk_space)
 		{
 			text[text_current] = scr_string_wrap(text[text_current], text_width);
 			char_current = 0;
-			auto_countdown = delay;
+			auto_countdown = delay_overload;
 		}
 	}
 }
@@ -29,7 +29,7 @@ if (char_current >= length)
 		auto_countdown -= 1;
 	} else
 	{
-		auto_countdown = delay;
+		auto_countdown = delay_overload;
 		text_current += 1;
 		if (text_current > text_last)
 		{
