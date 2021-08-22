@@ -62,9 +62,10 @@ switch(current_event_number)
 				text[0] = "I complained about colors yesterday, but this takes the cake.";
 				text[1] = "I should really get some better ones. What do you want to do with 16 colors?";
 				text[2] = "Don't feel like going anywhere though. Let's just wing it. You can do it!";
-
+				text[3] = "I usually start drawing with the sky. How about I try the ground first this time?";
+				
 				text_current = 0;
-				text_last = 2;
+				text_last = 3;
 				text_width = 1056 - (indentation*2);
 				text_x = x + indentation;
 				text_y = 60 + (indentation * 6);
@@ -80,6 +81,139 @@ switch(current_event_number)
 		} else
 		{
 			if !instance_exists(obj_dialog_handler)
+			{
+				waiting_for_finish = false;
+				current_event_number += 1;
+			}
+		}
+	break;
+	
+	case 2:
+		if !waiting_for_finish
+		{
+			waiting_for_finish = true;
+			
+			obj_gui_controller.current_objective = "Paint the ground.";
+			obj_gui_controller.timer = 10;
+		} else
+		{
+			if obj_gui_controller.timer = 0
+			{
+				waiting_for_finish = false;
+				current_event_number += 1;
+			}
+		}
+	break;
+	
+	case 3:
+		if !waiting_for_finish
+		{
+			waiting_for_finish = true;
+			
+			_inst = instance_create_depth(x, y, 0, obj_dialog_handler);
+			with(_inst)
+			{
+				indentation = 84;
+
+				text[0] = "Looks good, gotta say!";
+				text[1] = "Guess I need to draw the sky now. That's just how it is.";
+				
+				text_current = 0;
+				text_last = 1;
+				text_width = 1056 - (indentation*2);
+				text_x = x + indentation;
+				text_y = 60 + (indentation * 6);
+
+				char_current = 1;
+				char_speed = 0.25;
+
+				text[text_current] = scr_string_wrap(text[text_current], text_width);
+
+				delay = 180;
+				auto_countdown = delay;
+			}
+		} else
+		{
+			if !instance_exists(obj_dialog_handler)
+			{
+				waiting_for_finish = false;
+				current_event_number += 1;
+			}
+		}
+	break;
+	
+	case 4:
+		if cloud_speed_increments < 15
+		{
+			cloud_speed_increments += 1;
+			cloud_speed += 0.1;
+			layer_hspeed("Backgrounds_2", cloud_speed);
+		} else
+		{
+			current_event_number += 1;
+		}
+	break;
+	
+	case 5:
+		if !waiting_for_finish
+		{
+			waiting_for_finish = true;
+			
+			_inst = instance_create_depth(x, y, 0, obj_dialog_handler);
+			with(_inst)
+			{
+				indentation = 84;
+
+				text[0] = "Oh not this time.";
+				text[1] = "Can't surprise me with this anymore. I am ready.";
+				text[2] = "Drawing of the skies it is now.";
+				
+				text_current = 0;
+				text_last = 1;
+				text_width = 1056 - (indentation*2);
+				text_x = x + indentation;
+				text_y = 60 + (indentation * 6);
+
+				char_current = 1;
+				char_speed = 0.25;
+
+				text[text_current] = scr_string_wrap(text[text_current], text_width);
+
+				delay = 180;
+				auto_countdown = delay;
+			}
+		} else
+		{
+			if !instance_exists(obj_dialog_handler)
+			{
+				waiting_for_finish = false;
+				current_event_number += 1;
+			}
+		}
+	break;
+	
+	case 6:
+		if cloud_speed_increments < 30
+		{
+			cloud_speed_increments += 1;
+			cloud_speed += 0.1;
+			layer_hspeed("Backgrounds_2", cloud_speed);
+		} else
+		{
+			current_event_number += 1;
+		}
+	break;
+	
+	case 7:
+		if !waiting_for_finish
+		{
+			waiting_for_finish = true;
+			
+			obj_gui_controller.current_objective = "Paint the skies.";
+			obj_gui_controller.timer = 30;
+		} else
+		{
+			if obj_gui_controller.timer = 0
 			{
 				waiting_for_finish = false;
 				current_event_number += 1;
