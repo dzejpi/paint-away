@@ -622,7 +622,7 @@ switch(current_event_number)
 			obj_drawing_brush.rotation_speed = 15;
 			delay_speed = 4;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
-			audio_play_sound(snd_cloud_change, 10, false);
+			//audio_play_sound(snd_cloud_change, 10, false);
 			
 			random_brush_sorting = true;
 			
@@ -657,7 +657,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
-			audio_play_sound(snd_cloud_change, 10, false);
+			//audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 16;
 			delay_speed = 2;
@@ -1011,7 +1011,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
-			audio_play_sound(snd_cloud_change, 10, false);
+			//audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 20;
 			delay_speed = 1;
@@ -1033,7 +1033,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
-			audio_play_sound(snd_cloud_change, 10, false);
+			//audio_play_sound(snd_cloud_change, 10, false);
 			
 			instance_create_depth(x, y, 0, obj_next_room_transitioner);	
 			obj_next_room_transitioner.displayed_text = "P  A  I  N  T";
