@@ -110,6 +110,7 @@ switch(current_event_number)
 			cloud_speed_increments += 1;
 			cloud_speed += 0.2;
 			layer_hspeed("Backgrounds_2", cloud_speed);
+			audio_play_sound(snd_cloud_change, 10, false);
 		} else
 		{
 			current_event_number += 1;
@@ -211,6 +212,7 @@ switch(current_event_number)
 		{
 			cloud_speed -= 0.2;
 			layer_hspeed("Backgrounds_2", cloud_speed);
+			audio_play_sound(snd_cloud_change, 10, false);
 		} else
 		{
 			cloud_speed_increments = 0;
@@ -427,6 +429,7 @@ switch(current_event_number)
 			cloud_speed_increments += 1;
 			cloud_speed += 0.2;
 			layer_hspeed("Backgrounds_2", cloud_speed);
+			audio_play_sound(snd_cloud_change, 10, false);
 		} else
 		{
 			current_event_number += 1;
@@ -477,6 +480,7 @@ switch(current_event_number)
 			cloud_speed_increments += 1;
 			cloud_speed += 0.2;
 			layer_hspeed("Backgrounds_2", cloud_speed);
+			audio_play_sound(snd_cloud_change, 10, false);
 		} else
 		{
 			current_event_number += 1;

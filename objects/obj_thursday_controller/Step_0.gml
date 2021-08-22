@@ -125,6 +125,7 @@ switch(current_event_number)
 			cloud_speed_increments += 1;
 			cloud_speed += 0.1;
 			layer_hspeed("Backgrounds_2", cloud_speed);
+			audio_play_sound(snd_cloud_change, 10, false);
 		} else
 		{
 			current_event_number += 1;
@@ -177,6 +178,7 @@ switch(current_event_number)
 			cloud_speed_increments += 1;
 			cloud_speed += 0.1;
 			layer_hspeed("Backgrounds_2", cloud_speed);
+			audio_play_sound(snd_cloud_change, 10, false);
 		} else
 		{
 			cloud_speed_increments = 0;
@@ -190,6 +192,7 @@ switch(current_event_number)
 			cloud_speed_increments += 1;
 			cloud_speed -= 0.1;
 			layer_hspeed("Backgrounds_2", cloud_speed);
+			audio_play_sound(snd_cloud_change, 10, false);
 		} else
 		{
 			cloud_speed_increments = 0;
@@ -921,6 +924,8 @@ switch(current_event_number)
 		{
 			random_brush_sorting = true;
 			
+			audio_play_sound(snd_tense, 10, true);
+			
 			waiting_for_finish = true;
 			obj_gui_controller.current_objective = "Finish the painting.";
 			
@@ -973,6 +978,8 @@ switch(current_event_number)
 			instance_create_depth(x, y, 0, obj_next_room_transitioner);	
 			obj_next_room_transitioner.displayed_text = "Not really a great job!";
 			obj_next_room_transitioner.secondary_text = "Y ou pa sse d   ou t    a  n o t  her d a y !";
+			
+			audio_stop_all();
 		}
 	break;
 	

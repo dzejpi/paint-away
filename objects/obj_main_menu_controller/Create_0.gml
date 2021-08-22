@@ -11,3 +11,5 @@ shadowTextColor = make_colour_rgb(89, 77, 77);
 // Appearance
 alphaImage = 0;
 transitionSpeed = 0.025;
+
+audio_group_load(audiogroup_default);

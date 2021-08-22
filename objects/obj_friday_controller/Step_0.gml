@@ -73,6 +73,7 @@ switch(current_event_number)
 		{
 			obj_drawing_brush.rotation_speed = 3;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			waiting_for_finish = true;
 			
@@ -113,12 +114,14 @@ switch(current_event_number)
 	case 2:
 		obj_drawing_brush.rotation_speed = 4;
 		layer_hspeed("Backgrounds_2", random_range(-4, 4));
+		audio_play_sound(snd_cloud_change, 10, false);
 		
 		if cloud_speed_increments < 15
 		{
 			cloud_speed_increments += 1;
 			cloud_speed += 0.2;
 			layer_hspeed("Backgrounds_2", cloud_speed);
+			
 		} else
 		{
 			current_event_number += 1;
@@ -130,6 +133,7 @@ switch(current_event_number)
 		{
 			obj_drawing_brush.rotation_speed = 5;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			waiting_for_finish = true;
 			
@@ -150,6 +154,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 8;
 			delay_speed = 8;
@@ -291,6 +296,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 11;
 			delay_speed = 7;
@@ -454,6 +460,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 12;
 			delay_speed = 6;
@@ -595,6 +602,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 14;
 			delay_speed = 5;
@@ -617,6 +625,7 @@ switch(current_event_number)
 			obj_drawing_brush.rotation_speed = 15;
 			delay_speed = 4;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			random_brush_sorting = true;
 			
@@ -651,6 +660,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 16;
 			delay_speed = 2;
@@ -817,6 +827,8 @@ switch(current_event_number)
 	case 10:
 		delay_speed = 3;
 		layer_hspeed("Backgrounds_2", random_range(-4, 4));
+		
+		audio_play_sound(snd_tense, 10, true);
 		
 		if !waiting_for_finish
 		{
@@ -1002,6 +1014,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 20;
 			delay_speed = 1;
@@ -1023,10 +1036,13 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
+			audio_play_sound(snd_cloud_change, 10, false);
 			
 			instance_create_depth(x, y, 0, obj_next_room_transitioner);	
 			obj_next_room_transitioner.displayed_text = "P  A  I  N  T";
 			obj_next_room_transitioner.secondary_text = "";
+			
+			audio_stop_all();
 		}
 	break;
 }
