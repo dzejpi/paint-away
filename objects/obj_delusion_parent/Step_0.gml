@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if is_climbing
 {
-	depth = 1;
+	depth = -4;
 } else if is_walking
 {
 	depth = 5;
