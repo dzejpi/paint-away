@@ -17,6 +17,6 @@ walking_to_x = 0;
 
 going_back = false;
 
-
+one_time_walk = false;
 destroy_after = false;
 destroy_immediately = false;

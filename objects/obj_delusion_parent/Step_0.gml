@@ -1,5 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+if is_climbing
+{
+	depth = 1;
+} else if is_walking
+{
+	depth = 5;
+}
+
 if hspeed > 0
 {
 	image_xscale = 1;
@@ -47,6 +55,10 @@ if is_walking
 			hspeed = 0.4;
 		} else
 		{
+			if one_time_walk
+			{
+				instance_destroy();
+			}
 			going_back = true;
 		}
 	} else

@@ -7,3 +7,4 @@ waiting_for_finish = false;
 
 cloud_speed = 0.1;
 cloud_speed_increments = 0;
+

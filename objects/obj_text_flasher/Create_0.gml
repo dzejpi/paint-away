@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = -20;
+depth = -101;
 
 text_font = font_kenney_future_fourty_eight;
 text_displayed = "Help!";
