@@ -50,6 +50,7 @@
     {"id":{"name":"room_game_thursday","path":"rooms/room_game_thursday/room_game_thursday.yy",},"order":4,},
     {"id":{"name":"room_game_monday","path":"rooms/room_game_monday/room_game_monday.yy",},"order":2,},
     {"id":{"name":"obj_splash_handler","path":"objects/obj_splash_handler/obj_splash_handler.yy",},"order":4,},
+    {"id":{"name":"snd_typewriter","path":"sounds/snd_typewriter/snd_typewriter.yy",},"order":3,},
     {"id":{"name":"obj_color_4","path":"objects/obj_color_4/obj_color_4.yy",},"order":3,},
     {"id":{"name":"room_game_friday","path":"rooms/room_game_friday/room_game_friday.yy",},"order":5,},
     {"id":{"name":"obj_delusion_parent","path":"objects/obj_delusion_parent/obj_delusion_parent.yy",},"order":2,},

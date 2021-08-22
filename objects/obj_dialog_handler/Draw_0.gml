@@ -13,6 +13,10 @@ var legth = string_length(text[text_current]);
 if (char_current < legth)
 {
 	char_current += char_speed;
+	if frac(char_current) = 0 
+	{
+		audio_play_sound(snd_typewriter, 10, false);
+	}
 }
 
 var drawn_string = string_copy(text[text_current], 1, char_current);

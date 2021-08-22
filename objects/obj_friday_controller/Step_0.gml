@@ -114,7 +114,7 @@ switch(current_event_number)
 	case 2:
 		obj_drawing_brush.rotation_speed = 4;
 		layer_hspeed("Backgrounds_2", random_range(-4, 4));
-		audio_play_sound(snd_cloud_change, 10, false);
+		
 		
 		if cloud_speed_increments < 15
 		{
@@ -154,7 +154,7 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
-			audio_play_sound(snd_cloud_change, 10, false);
+			
 			
 			obj_drawing_brush.rotation_speed = 8;
 			delay_speed = 8;
@@ -458,7 +458,6 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			layer_hspeed("Backgrounds_2", random_range(-4, 4));
-			audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 12;
 			delay_speed = 6;
