@@ -10,10 +10,12 @@ if is_climbing
 
 if hspeed > 0
 {
-	image_xscale = 1;
+	image_xscale = image_x_scale * 1;
+	image_yscale = image_y_scale;
 } else if hspeed < 1
 {
-	image_xscale = -1;
+	image_xscale = image_x_scale * -1;
+	image_yscale = image_y_scale;
 }
 
 if is_climbing

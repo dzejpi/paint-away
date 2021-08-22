@@ -20,3 +20,6 @@ going_back = false;
 one_time_walk = false;
 destroy_after = false;
 destroy_immediately = false;
+
+image_x_scale = 1;
+image_y_scale = 1;

@@ -832,7 +832,7 @@ switch(current_event_number)
 			with(_flash_object)
 			{
 				text_font = font_kenney_future_fourty_eight;
-				text_displayed = "What is wrong with you?";
+				text_displayed = "What is wrong?";
 				text_color = make_color_rgb(0, 0, 0);
 
 				flash_duration = 75;
