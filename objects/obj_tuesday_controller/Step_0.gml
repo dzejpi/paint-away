@@ -161,8 +161,8 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			
-			obj_gui_controller.current_objective = "Finish painting. Everything is OK.";
-			obj_gui_controller.timer = 30;
+			obj_gui_controller.current_objective = "Finish sky. Everything is OK.";
+			obj_gui_controller.timer = 15;
 			
 			obj_drawing_brush.rotation_speed = 6;
 		} else
@@ -295,8 +295,8 @@ switch(current_event_number)
 		{
 			waiting_for_finish = true;
 			
-			obj_gui_controller.current_objective = "Paint the field, I think.";
-			obj_gui_controller.timer = 45;
+			obj_gui_controller.current_objective = "Paint the green fields, I think.";
+			obj_gui_controller.timer = 30;
 		} else
 		{
 			if obj_gui_controller.timer = 0
@@ -410,7 +410,7 @@ switch(current_event_number)
 			waiting_for_finish = true;
 			
 			obj_gui_controller.current_objective = "Paint happy little trees.";
-			obj_gui_controller.timer = 60;
+			obj_gui_controller.timer = 45;
 		} else
 		{
 			if obj_gui_controller.timer = 0

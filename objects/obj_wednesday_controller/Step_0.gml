@@ -94,7 +94,7 @@ switch(current_event_number)
 			waiting_for_finish = true;
 			
 			obj_gui_controller.current_objective = "Paint the ground.";
-			obj_gui_controller.timer = 60;
+			obj_gui_controller.timer = 30;
 		} else
 		{
 			if obj_gui_controller.timer = 0

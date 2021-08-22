@@ -593,7 +593,7 @@ switch(current_event_number)
 				destroy_after = true;
 			}
 			
-			var _delusion_walk_two = instance_create_depth(-64, 450, 0, obj_blue_delusion);
+			var _delusion_walk_two = instance_create_depth(-64, 451, 0, obj_blue_delusion);
 			with(_delusion_walk_two)
 			{
 				is_walking = true;
@@ -607,7 +607,7 @@ switch(current_event_number)
 				one_time_walk = true;
 			}
 			
-			var _delusion_walk_three = instance_create_depth(720, 400, 0, obj_blue_delusion);
+			var _delusion_walk_three = instance_create_depth(720, 490, 0, obj_blue_delusion);
 			with(_delusion_walk_three)
 			{
 				is_walking = true;
@@ -634,7 +634,7 @@ switch(current_event_number)
 				destroy_after = false;
 			}
 			
-			var _delusion_walk_five = instance_create_depth(720, 400, 0, obj_blue_delusion);
+			var _delusion_walk_five = instance_create_depth(720, 403, 0, obj_blue_delusion);
 			with(_delusion_walk_five)
 			{
 				is_walking = true;
