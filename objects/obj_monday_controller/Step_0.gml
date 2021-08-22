@@ -60,7 +60,7 @@ switch(current_event_number)
 				indentation = 84;
 
 				text[0] = "What a beautiful day!";
-				text[1] = "I will start with with the sky.";
+				text[1] = "I will start with the sky.";
 
 				text_current = 0;
 				text_last = 1;
@@ -92,7 +92,7 @@ switch(current_event_number)
 			waiting_for_finish = true;
 			
 			obj_gui_controller.current_objective = "Paint the sky!";
-			obj_gui_controller.timer = 45;
+			obj_gui_controller.timer = 30;
 		} else
 		{
 			if obj_gui_controller.timer = 0
@@ -222,7 +222,7 @@ switch(current_event_number)
 				indentation = 84;
 
 				text[0] = "Close enough. I guess.";
-				text[1] = "I dont want acid rain trees though. They need leaves.";
+				text[1] = "I don't want acid rain trees though. They need leaves.";
 
 				text_current = 0;
 				text_last = 1;

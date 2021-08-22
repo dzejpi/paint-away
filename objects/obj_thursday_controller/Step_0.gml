@@ -108,7 +108,7 @@ switch(current_event_number)
 			waiting_for_finish = true;
 			
 			obj_gui_controller.current_objective = "Paint the calm sky.";
-			obj_gui_controller.timer = 45;
+			obj_gui_controller.timer = 20;
 		} else
 		{
 			if obj_gui_controller.timer = 0
