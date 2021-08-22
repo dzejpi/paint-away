@@ -17,8 +17,6 @@ walking_to_x = 0;
 
 going_back = false;
 
-image_xscale = 0.5;
-image_yscale = 0.75;
 
 destroy_after = false;
 destroy_immediately = false;

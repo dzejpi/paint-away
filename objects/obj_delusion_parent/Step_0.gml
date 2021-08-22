@@ -39,7 +39,31 @@ if is_climbing
 
 if is_walking
 {
-
+	if !going_back
+	{
+		if x < walking_to_x
+		{
+			sprite_index = walk_sprite;
+			hspeed = 0.4;
+		} else
+		{
+			going_back = true;
+		}
+	} else
+	{
+		if x > original_x_pos
+		{
+			sprite_index = walk_sprite;
+			hspeed = -0.4;
+		} else
+		{
+			if destroy_after
+			{
+				instance_destroy();
+			}
+			going_back = false;
+		}
+	}
 }
 
 if destroy_immediately
