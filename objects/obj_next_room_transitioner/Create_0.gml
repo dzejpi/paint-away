@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = -10;
+depth = -105;
 transition_speed = 260;
 dark_screen = 120;
 
