@@ -295,8 +295,6 @@ switch(current_event_number)
 		if !waiting_for_finish
 		{
 			waiting_for_finish = true;
-			layer_hspeed("Backgrounds_2", random_range(-4, 4));
-			audio_play_sound(snd_cloud_change, 10, false);
 			
 			obj_drawing_brush.rotation_speed = 11;
 			delay_speed = 7;
